@@ -17,7 +17,7 @@ if (file_exists(SYSTEM_PATH.'core/Common.php')) {
 // set_exception_handler('_exception_handler');
 // register_shutdown_function('_shutdown_handler');
 
-require_once SYSTEM_PATH.'core/Controller.php';
+require_once SYSTEM_PATH.'core/Go_Controller.php';
 
 function &get_instance(){
 	return CI_Controller::get_instance();

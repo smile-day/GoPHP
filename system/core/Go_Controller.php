@@ -5,7 +5,7 @@ defined('SYSTEM_PATH') or exit('No direct script access allowed.');
 
 
 //单例模式，全局控制器
-class GO_Controller {
+class Go_Controller {
 	
 	private static $instance;
 

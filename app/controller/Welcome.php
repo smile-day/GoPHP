@@ -4,7 +4,7 @@
 /**
 * 
 */
-class Welcome
+class Welcome extends Go_Controller
 {
 	
 	function __construct()

@@ -3,7 +3,7 @@
 /**
 * 
 */
-class User 
+class User extends Go_Controller
 {
 	
 	function __construct()
