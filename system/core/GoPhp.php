@@ -23,4 +23,13 @@ function &get_instance(){
 	return CI_Controller::get_instance();
 }
 
+require_once SYSTEM_PATH.'core/Core.php';
+
+$go = new GO();
+
+
+
+
+
+
  
